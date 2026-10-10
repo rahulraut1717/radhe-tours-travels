@@ -29,7 +29,7 @@ const vehicles = [
   },
 ];
 
-const WHATSAPP_NUMBER = "917499739835";
+const WHATSAPP_NUMBER = "918669236110";
 
 const initialForm = {
   name: "",
@@ -82,7 +82,7 @@ Additional Requirements: ${form.message || "None"}
 Please confirm vehicle availability and the total fare.
     `.trim();
 
-    if (WHATSAPP_NUMBER === "91XXXXXXXXXX") {
+    if (WHATSAPP_NUMBER === "91xxxxxxxxxx") {
       setStatus(
         "WhatsApp सुरू करण्यासाठी App.jsx मध्ये तुमचा व्यवसायाचा WhatsApp नंबर सेट करा."
       );

@@ -156,14 +156,13 @@ textarea {
   display: flex;
   align-items: center;
   background:
-    linear-gradient(
-      90deg,
-      #0d1d30ed 0%,
-      #102238bb 48%,
-      #12233817 100%
-    ),
-    url("https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=2000&q=90")
-      center 48% / cover no-repeat;
+  linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.55) 0%,
+    rgba(0, 0, 0, 0.15) 55%,
+    rgba(0, 0, 0, 0.05) 100%
+  ),
+  url("./assets/hero-vehicles.png") center 65% / cover no-repeat;
   color: var(--white);
 }
 

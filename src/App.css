@@ -878,7 +878,9 @@ textarea {
 .hero {
   position: relative;
   overflow: hidden;
-  background-position: center 48%;
+  background-position: center center;
+background-size: contain;
+background-repeat: no-repeat;
 }
 
 .hero-overlay {

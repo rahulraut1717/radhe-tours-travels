@@ -671,9 +671,10 @@ textarea {
   }
 
   .hero {
-    min-height: 500px;
-    background-position: center;
-  }
+  min-height: 550px;
+  background-position: 58% center;
+  background-size: cover;
+}+
 
   .hero-overlay {
     padding: 60px 6%;

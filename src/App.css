@@ -672,8 +672,9 @@ textarea {
 
   .hero {
   min-height: 550px;
-  background-position: 58% center;
-  background-size: cover;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
   .hero-overlay {
